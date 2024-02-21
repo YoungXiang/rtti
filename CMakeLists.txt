@@ -10,8 +10,8 @@ option(ENABLE_CODE_COVERAGE    "Enable code coverage generation"            OFF)
 option(ENABLE_CODE_ANALYSIS    "Enable static code analysis"                OFF)
 option(ENABLE_CPPCHECK         "Enable cppcheck for static code analysis"   OFF)
 option(ENABLE_CLANG_TIDY       "Enable clang-tidy for static code analysis" OFF)
-option(BUILD_TESTS             "Build unittest binary"                      ON)
-option(BUILD_BENCHMARK         "Build benchmark binary"                     ON)
+option(BUILD_TESTS             "Build unittest binary"                      OFF)
+option(BUILD_BENCHMARK         "Build benchmark binary"                     OFF)
 
 # CXX compilation options
 set(CMAKE_CXX_STANDARD 17)
